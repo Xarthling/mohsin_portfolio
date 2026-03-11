@@ -44,14 +44,13 @@ const Home = () => {
       >
         <Typewriter text={data.hero.name} speed={100} />
 
-       <h1 className="hero-title">
-  Elegant Intelligence — where design meets data.
-</h1>
+        <h1 className="text-5xl sm:text-6xl lg:text-6xl font-extrabold leading-[1.05] tracking-tight text-neutral-900 dark:text-white">
+          {data.hero.tagline}
+        </h1>
 
-<p className="hero-description">
-  AI Engineer & Software Developer passionate about crafting intelligent, 
-  data-driven systems that blend design, automation, and real-world impact.
-</p>
+        <p className="text-sm md:text-xl w-[75%] md:w-auto text-gray-700 dark:text-gray-300 max-w-lg leading-relaxed line-clamp-3 md:line-clamp-none">
+          {data.hero.intro}
+        </p>
 
         {/* Button Container */}
         <div className="flex flex-col md:flex-row items-start md:items-center gap-4 w-full">
