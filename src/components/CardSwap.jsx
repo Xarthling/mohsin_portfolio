@@ -48,7 +48,7 @@ const CardSwap = ({
   delay = 5000,           // set delay={0} to disable auto-swapping
   pauseOnHover = false,
   skewAmount = 6,
-  easing = 'elastic',
+  easing = 'power1',
   children,
 }) => {
   const config =

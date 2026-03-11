@@ -1,4 +1,6 @@
+import React, { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import emailjs from "@emailjs/browser";
 import data from "../utils/data.json";
 import ContactIllustration from "../assets/Contact.svg?react";
 import SectionWrapper from "../components/SectionWrapper";
@@ -6,7 +8,7 @@ import Button from "../components/Button";
 
 const fadeUp = {
   initial: { opacity: 0, y: 20 },
-  whileInView: { opacity: 1, y: 0 }, // Changed to whileInView for better UX
+  whileInView: { opacity: 1, y: 0 },
   viewport: { once: true },
   transition: { duration: 0.8 },
 };
@@ -20,6 +22,33 @@ const fadeInRight = {
 
 const Contact = () => {
   const { github, linkedin, email, website } = data.contact;
+  
+  // --- EmailJS Logic ---
+  const formRef = useRef();
+  const [isSending, setIsSending] = useState(false);
+
+  useEffect(() => {
+    emailjs.init('G3ZvQts_et4Qp-nUD');
+  }, []);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    setIsSending(true);
+
+    const serviceID = 'default_service';
+    const templateID = 'template_8g5rgns';
+
+    emailjs.sendForm(serviceID, templateID, formRef.current)
+      .then(() => {
+        setIsSending(false);
+        alert('Sent!');
+        formRef.current.reset();
+      }, (err) => {
+        setIsSending(false);
+        alert(JSON.stringify(err));
+      });
+  };
+  // ----------------------
 
   const contactLinks = [
     { label: "GitHub", href: github },
@@ -31,10 +60,8 @@ const Contact = () => {
   return (
     <SectionWrapper
       id="contact"
-      // Changed h-screen to min-h-screen and added padding for mobile
       className="relative min-h-screen w-full flex flex-col-reverse md:flex-row items-center justify-center md:justify-between gap-12 py-20 px-4 md:px-10"
     >
-      {/* Left Side: Text + Form + Links */}
       <motion.div
         className="flex flex-col items-center md:items-start gap-6 w-full md:w-1/2 z-10"
         {...fadeUp}
@@ -47,22 +74,33 @@ const Contact = () => {
           </p>
         </div>
 
-        {/* Contact Form */}
-        <form className="flex flex-col gap-4 w-full max-w-md">
+        {/* Updated Form with Ref and Submit Handler */}
+        <form ref={formRef} onSubmit={sendEmail} className="flex flex-col gap-4 w-full max-w-md">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {["Your Name", "Your Email"].map((placeholder, i) => (
-              <input
-                key={i}
-                type={placeholder.includes("Email") ? "email" : "text"}
-                placeholder={placeholder}
-                className="px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-700 
-                           bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm 
-                           placeholder-gray-500 dark:placeholder-gray-400 
-                           focus:ring-2 focus:ring-indigo-400 outline-none transition-all w-full"
-              />
-            ))}
+            <input
+              required
+              name="name" // Ensure this matches your EmailJS template variable
+              type="text"
+              placeholder="Your Name"
+              className="px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-700 
+                         bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm 
+                         placeholder-gray-500 dark:placeholder-gray-400 
+                         focus:ring-2 focus:ring-indigo-400 outline-none transition-all w-full"
+            />
+            <input
+              required
+              name="email" // Ensure this matches your EmailJS template variable
+              type="email"
+              placeholder="Your Email"
+              className="px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-700 
+                         bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm 
+                         placeholder-gray-500 dark:placeholder-gray-400 
+                         focus:ring-2 focus:ring-indigo-400 outline-none transition-all w-full"
+            />
           </div>
           <textarea
+            required
+            name="message" // Ensure this matches your EmailJS template variable
             placeholder="How can I help you?"
             rows={5}
             className="px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-700 
@@ -70,12 +108,15 @@ const Contact = () => {
                        placeholder-gray-500 dark:placeholder-gray-400 
                        focus:ring-2 focus:ring-indigo-400 outline-none transition-all"
           />
-          <Button type="submit" className="w-full md:w-max px-8 py-4 shadow-lg shadow-indigo-500/20">
-            Send Message
+          <Button 
+            type="submit" 
+            disabled={isSending}
+            className="w-full md:w-max px-8 py-4 shadow-lg shadow-indigo-500/20 disabled:opacity-70"
+          >
+            {isSending ? "Sending..." : "Send Message"}
           </Button>
         </form>
 
-        {/* Contact Links */}
         <div className="flex flex-wrap gap-6 justify-center md:justify-start text-sm font-medium text-gray-500 dark:text-gray-400">
           {contactLinks.map(({ label, href }) => (
             <a
@@ -91,15 +132,12 @@ const Contact = () => {
         </div>
       </motion.div>
 
-      {/* Right Side: Illustration */}
       <div className="relative w-full md:w-1/2 flex justify-center items-center">
-        {/* Optimized Background Glow */}
         <div
           className="absolute w-64 h-64 md:w-96 md:h-96 rounded-full blur-[80px] md:blur-[120px] 
                      bg-indigo-400/20 dark:bg-indigo-600/20 pointer-events-none"
         />
 
-        {/* Illustration - Responsive sizing using clamp or percentages */}
         <motion.div 
           {...fadeInRight}
           className="w-full max-w-[280px] sm:max-w-[350px] md:max-w-[450px] z-10"
