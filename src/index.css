@@ -72,7 +72,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("/brushed-alum.png");
+  background-image: url("/ice-age.png");
   opacity: 0.06;
   pointer-events: none;
   mix-blend-mode: overlay;
