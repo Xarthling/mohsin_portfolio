@@ -227,10 +227,7 @@ export default function Stacks() {
                       {stack.skills.map((skill, i) => (
                         <span
                           key={skill}
-                          initial={{ opacity: 0, y: 10 }}
-                          whileInView={{ opacity: 1, y: 0 }}
-                          transition={{ delay: 0.8 + (i * 0.05) }}
-                          whileHover={{ scale: 1.1, backgroundColor: "rgba(255,255,255,0.2)" }}
+                         
                           className="px-5 py-2 text-sm font-semibold bg-white/5 text-gray-200 rounded-xl border border-white/10 backdrop-blur-md cursor-default transition-colors"
                         >
                           {skill}

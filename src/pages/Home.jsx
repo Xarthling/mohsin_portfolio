@@ -8,7 +8,7 @@ import Button from "../components/Button";
 
 const Typewriter = ({ text, speed = 60 }) => {
   const [displayed, setDisplayed] = useState("");
-  
+
   useEffect(() => {
     let i = 0;
     const interval = setInterval(() => {
@@ -44,38 +44,51 @@ const Home = () => {
       >
         <Typewriter text={data.hero.name} speed={100} />
 
-        <h1 className="text-5xl sm:text-6xl lg:text-6xl font-extrabold leading-[1.05] tracking-tight text-neutral-900 dark:text-white">
-          {data.hero.tagline}
-        </h1>
+       <h1 className="hero-title">
+  Elegant Intelligence — where design meets data.
+</h1>
 
-        <p className="text-sm md:text-xl w-[75%] md:w-auto text-gray-700 dark:text-gray-300 max-w-lg leading-relaxed line-clamp-3 md:line-clamp-none">
-  {data.hero.intro}
+<p className="hero-description">
+  AI Engineer & Software Developer passionate about crafting intelligent, 
+  data-driven systems that blend design, automation, and real-world impact.
 </p>
 
         {/* Button Container */}
-<div className="flex flex-col md:flex-row items-start md:items-center gap-4 w-full">
-  {/* Let's Collaborate Button */}
-  <Button 
-    className="w-1/2 md:w-auto "
-    variant="primary"
-  >
-    Let’s Collaborate
-  </Button>
-  
-  {/* View My Work Button */}
-  <Button 
-    variant="outline" 
-    className="w-1/2 md:w-auto  backdrop-blur-md"
-  >
-    View My Work
-  </Button>
-</div>
+        <div className="flex flex-col md:flex-row items-start md:items-center gap-4 w-full">
+          {/* Let's Collaborate Button */}
+          <Button className="w-1/2 md:w-auto " variant="primary">
+            Let’s Collaborate
+          </Button>
+
+          {/* View My Work Button */}
+          <Button
+            variant="outline"
+            className="w-1/2 md:w-auto  backdrop-blur-md"
+          >
+            View My Work
+          </Button>
+        </div>
 
         {/* Socials */}
         <div className="flex gap-8 mt-4 text-neutral-700 dark:text-gray-400">
-          <a href={data.contact.github} className="hover:text-indigo-600 transition-all hover:-translate-y-1"><FiGithub size={24} /></a>
-          <a href={data.contact.linkedin} className="hover:text-indigo-600 transition-all hover:-translate-y-1"><FiLinkedin size={24} /></a>
-          <a href={`mailto:${data.contact.email}`} className="hover:text-indigo-600 transition-all hover:-translate-y-1"><FiMail size={24} /></a>
+          <a
+            href={data.contact.github}
+            className="hover:text-indigo-600 transition-all hover:-translate-y-1"
+          >
+            <FiGithub size={24} />
+          </a>
+          <a
+            href={data.contact.linkedin}
+            className="hover:text-indigo-600 transition-all hover:-translate-y-1"
+          >
+            <FiLinkedin size={24} />
+          </a>
+          <a
+            href={`mailto:${data.contact.email}`}
+            className="hover:text-indigo-600 transition-all hover:-translate-y-1"
+          >
+            <FiMail size={24} />
+          </a>
         </div>
       </motion.div>
 
@@ -83,7 +96,7 @@ const Home = () => {
       <div className="absolute bottom-65 right-10 md:bottom-0 md:right-0 translate-x-[15%] translate-y-[10%] md:translate-x-0 md:translate-y-0 md:relative w-[70%] md:w-1/2 flex justify-end items-end z-0 pointer-events-none">
         {/* Glow focused behind the image */}
         <div className="absolute bottom-0 right-0 w-[300px] h-[300px] md:w-[500px] md:h-[500px] rounded-full blur-[120px] bg-indigo-500/40 dark:bg-indigo-600/50" />
-        
+
         <motion.div
           initial={{ opacity: 0, scale: 0.9, rotate: 0 }}
           animate={{ opacity: 1, scale: 1, rotate: 0 }}
