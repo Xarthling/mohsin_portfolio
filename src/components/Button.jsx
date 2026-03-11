@@ -6,7 +6,7 @@ const Button = ({ children, variant = "primary", className = "", ...props }) => 
     "px-5 py-2.5 rounded-lg font-medium transition focus:outline-none focus:ring-2 focus:ring-indigo-400";
   const variants = {
     primary:
-      "bg-indigo-600 text-lg  text-white hover:bg-indigo-500 shadow-md hover:shadow-lg",
+      "bg-indigo-600 text-md sm:text-md md:text-lg  text-white hover:bg-indigo-500 shadow-md hover:shadow-lg",
     outline:
       "border border-indigo-600 text-indigo-600 dark:border-indigo-400 dark:text-indigo-400 bg-transparent hover:bg-indigo-50 dark:hover:bg-indigo-800/40",
     glass:
