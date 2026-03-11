@@ -39,31 +39,27 @@
       "title": "Fraud Detection System",
       "description": "Flask-based ML app with admin dashboard",
       "tags": ["ML", "Flask", "Admin"],
-      "image": "/Projects/FD.webp",
-      "links": { "demo": "#", "github": "#", "caseStudy": "#" }
+      "image": "/Projects/FD.webp"
     },
   
     {
       "title": "Waste Tracker Dashboard",
       "description": "React analytics interface",
       "tags": ["React", "Analytics"],
-      "image": "/Projects/waste.webp",
-      "links": { "demo": "#", "github": "#", "caseStudy": "#" }
+      "image": "/Projects/waste.webp"
     },
  
     {
       "title": "Selenium Automation Bot",
       "description": "Multi-user form submission & CAPTCHA solving",
       "tags": ["Selenium", "Automation"],
-      "image": "/Projects/bot.webp",
-      "links": { "demo": "#", "github": "#", "caseStudy": "#" }
+      "image": "/Projects/bot.webp"
     },
          {
       "title": "Heart Classification (YOLO)",
       "description": "Medical segmentation model",
       "tags": ["YOLO", "Medical", "Python"],
-      "image": "/Projects/Heart.webp",
-      "links": { "demo": "#", "github": "#", "caseStudy": "#" }
+      "image": "/Projects/Heart.webp"
     }
   ],
 
@@ -126,9 +122,9 @@
     { "author": "LinkedIn Recommendation 2", "text": "Hasan's expertise in AI and software development is top-notch." }
   ],
   "contact": {
-    "github": "https://github.com/hasanmalik",
-    "linkedin": "https://linkedin.com/in/hasanmalik",
-    "email": "hasan.engineer@gmail.com",
+    "github": "https://github.com/Xarthling",
+    "linkedin": "https://www.linkedin.com/in/hassan-munir-196455285/",
+    "email": "malik.hassan5499@gmail.com",
     "website": "#"
   },
   "cta": {

@@ -54,41 +54,53 @@ const Home = () => {
 
         {/* Button Container */}
         <div className="flex flex-col md:flex-row items-start md:items-center gap-4 w-full">
-          {/* Let's Collaborate Button */}
-          <Button className="w-1/2 md:w-auto " variant="primary">
-            Let’s Collaborate
-          </Button>
+  {/* Let's Collaborate Button */}
+  <a href="#contact" className="w-1/2 md:w-auto">
+    <Button className="w-full" variant="primary">
+      Let’s Collaborate
+    </Button>
+  </a>
 
-          {/* View My Work Button */}
-          <Button
-            variant="outline"
-            className="w-1/2 md:w-auto  backdrop-blur-md"
-          >
-            View My Work
-          </Button>
-        </div>
+  {/* View My Work Button */}
+  <a href="#projects" className="w-1/2 md:w-auto">
+    <Button
+      variant="outline"
+      className="w-full backdrop-blur-md"
+    >
+      View My Work
+    </Button>
+  </a>
+</div>
 
         {/* Socials */}
-        <div className="flex gap-8 mt-4 text-neutral-700 dark:text-gray-400">
-          <a
-            href={data.contact.github}
-            className="hover:text-indigo-600 transition-all hover:-translate-y-1"
-          >
-            <FiGithub size={24} />
-          </a>
-          <a
-            href={data.contact.linkedin}
-            className="hover:text-indigo-600 transition-all hover:-translate-y-1"
-          >
-            <FiLinkedin size={24} />
-          </a>
-          <a
-            href={`mailto:${data.contact.email}`}
-            className="hover:text-indigo-600 transition-all hover:-translate-y-1"
-          >
-            <FiMail size={24} />
-          </a>
-        </div>
+       <div className="flex gap-8 mt-4 text-neutral-700 dark:text-gray-400">
+  <a
+    href={data.contact.github}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-indigo-600 transition-all hover:-translate-y-1"
+  >
+    <FiGithub size={24} />
+  </a>
+  
+  <a
+    href={data.contact.linkedin}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-indigo-600 transition-all hover:-translate-y-1"
+  >
+    <FiLinkedin size={24} />
+  </a>
+  
+  <a
+    href={`mailto:${data.contact.email}`}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-indigo-600 transition-all hover:-translate-y-1"
+  >
+    <FiMail size={24} />
+  </a>
+</div>
       </motion.div>
 
       {/* 2. THE ILLUSTRATION (Bottom Right on Mobile) */}
