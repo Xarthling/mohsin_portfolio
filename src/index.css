@@ -72,7 +72,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("/ice-age.png");
+  background-image: url("/Projects/ice-age.png");
   opacity: 0.06;
   pointer-events: none;
   mix-blend-mode: overlay;
