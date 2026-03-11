@@ -158,7 +158,7 @@ export default function Stacks() {
       <motion.div
         variants={containerVariants}
         initial="hidden"
-        whileinview="visible"
+        whileInView="visible"
         viewport={{ once: true, margin: "-100px" }}
         className="flex flex-col lg:flex-row items-center lg:items-stretch border-t border-neutral-800 border rounded-[2.5rem] collab-bg grain-overlay overflow-hidden relative shadow-2xl"
         style={{
@@ -171,7 +171,7 @@ export default function Stacks() {
         <div className="flex flex-col justify-center px-6 py-12 md:py-20 lg:py-40 lg:pl-16 items-center lg:items-start gap-6 z-10 w-full lg:w-1/2 text-center lg:text-left">
        <motion.p 
                      initial={{ opacity: 0, x: -20 }}
-                     whileinview={{ opacity: 1, x: 0 }}
+                     whileInView={{ opacity: 1, x: 0 }}
                      transition={{ delay: 0.3 }}
                      className="flex items-center gap-3 text-emerald-400 font-black uppercase tracking-[0.3em] text-xs mb-6 bg-white/5 px-4 py-2 rounded-full backdrop-blur-sm"
                    >
@@ -195,7 +195,7 @@ export default function Stacks() {
         {/* Cards Side */}
         <motion.div 
           initial={{ opacity: 0, scale: 0.9, rotateY: 20 }}
-          whileinview={{ opacity: 1, scale: 1, rotateY: 0 }}
+          whileInView={{ opacity: 1, scale: 1, rotateY: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.5, ease: "circOut" }}
           className="relative w-full lg:w-1/2 min-h-[400px] sm:min-h-[450px] md:min-h-[600px] flex items-center justify-center"
@@ -228,9 +228,9 @@ export default function Stacks() {
                         <span
                           key={skill}
                           initial={{ opacity: 0, y: 10 }}
-                          whileinview={{ opacity: 1, y: 0 }}
+                          whileInView={{ opacity: 1, y: 0 }}
                           transition={{ delay: 0.8 + (i * 0.05) }}
-                          whilehover={{ scale: 1.1, backgroundColor: "rgba(255,255,255,0.2)" }}
+                          whileHover={{ scale: 1.1, backgroundColor: "rgba(255,255,255,0.2)" }}
                           className="px-5 py-2 text-sm font-semibold bg-white/5 text-gray-200 rounded-xl border border-white/10 backdrop-blur-md cursor-default transition-colors"
                         >
                           {skill}
