@@ -32,14 +32,14 @@
       "title": "Lenzeit",
       "description": "AI-powered media delivery system for photography studios",
       "tags": ["AI", "React", "Flask"],
-      "image": "src/Projects/lenzeit cover.png",
+      "image": "/Projects/lenzeit cover.png",
       "links": { "demo": "https://www.lenzeit.com/", "caseStudy": "#" }
     },
     {
       "title": "Fraud Detection System",
       "description": "Flask-based ML app with admin dashboard",
       "tags": ["ML", "Flask", "Admin"],
-      "image": "src/Projects/FD.png",
+      "image": "/Projects/FD.png",
       "links": { "demo": "#", "github": "#", "caseStudy": "#" }
     },
   
@@ -47,7 +47,7 @@
       "title": "Waste Tracker Dashboard",
       "description": "React analytics interface",
       "tags": ["React", "Analytics"],
-      "image": "src/Projects/waste.png",
+      "image": "/Projects/waste.png",
       "links": { "demo": "#", "github": "#", "caseStudy": "#" }
     },
  
@@ -55,14 +55,14 @@
       "title": "Selenium Automation Bot",
       "description": "Multi-user form submission & CAPTCHA solving",
       "tags": ["Selenium", "Automation"],
-      "image": "src/Projects/bot.png",
+      "image": "/Projects/bot.png",
       "links": { "demo": "#", "github": "#", "caseStudy": "#" }
     },
          {
       "title": "Heart Classification (YOLO)",
       "description": "Medical segmentation model",
       "tags": ["YOLO", "Medical", "Python"],
-      "image": "src/Projects/Heart.png",
+      "image": "/Projects/Heart.png",
       "links": { "demo": "#", "github": "#", "caseStudy": "#" }
     }
   ],
@@ -71,25 +71,25 @@
     { 
       "role": "Founder", 
       "year": "2025-Present", 
-      "img": "src/Experience/lenzeit.webp", 
+      "img": "/Experience/lenzeit.webp", 
       "details": "Launched Lenzeit, an AI-powered bulk photo delivery platform revolutionizing media distribution." 
     },
     { 
       "role": "AI Engineer", 
       "year": "2025-2026", 
-      "img": "src/Experience/Amal%20Axis.png", 
+      "img": "/Experience/Amal%20Axis.png", 
       "details": "Engineered innovative AI solutions at Amal-Axis, focusing on LLM integration and neural architectures." 
     },
     { 
       "role": "Software Engineer", 
       "year": "2023-2024", 
-      "img": "src/Experience/techyon%20tech.png", 
+      "img": "/Experience/techyon%20tech.png", 
       "details": "Developed scalable applications at TechyonTech, optimizing backend performance and user experience." 
     },
     { 
       "role": "Freelance Developer", 
       "year": "2022-2023", 
-      "img": "src/Experience/free.webp", 
+      "img": "/Experience/free.webp", 
       "details": "Delivered high-quality software solutions for a diverse range of international clients." 
     }
   ],
@@ -97,19 +97,19 @@
     { 
       "degree": "BSc Computer Science", 
       "year": "2021-2024", 
-      "img": "src/Experience/comsats.png", 
+      "img": "/Experience/comsats.png", 
       "institution": "COMSATS University Islamabad" 
     },
     { 
       "degree": "Ai/ML, Data Science", 
       "year": "2025", 
-      "img": "src/Experience/giki.png", 
+      "img": "/Experience/giki.png", 
       "institution": "GIKI University Certified " 
     },
     { 
       "degree": "Azure Machine Learning", 
       "year": "2025", 
-      "img": "src/Experience/ms.png", 
+      "img": "/Experience/ms.png", 
       "institution": "Microsoft Certified" 
     }
   ]
@@ -133,7 +133,7 @@
   },
   "cta": {
     "heading": "Let’s collaborate.",
-    "image": "src/Projects/ice-age.png",
+    "image": "/Projects/ice-age.png",
     "description": "I’m always open to new opportunities and collaborations. Whether you have a project in mind or just want to connect, feel free to reach out!",
     "button": { "label": "Contact Me", "link": "#contact" }
      
