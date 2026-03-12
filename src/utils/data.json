@@ -39,28 +39,71 @@
       "title": "Fraud Detection System",
       "description": "Flask-based ML app with admin dashboard",
       "tags": ["ML", "Flask", "Admin"],
-      "image": "/Projects/FD.webp"
+      "image": "/Projects/FD.webp",
+      "links": { "demo": "", "github": "https://github.com/Xarthling/Bank-Fraud-Detection.git", "caseStudy": "#" }
     },
   
     {
-      "title": "Waste Tracker Dashboard",
-      "description": "React analytics interface",
+      "title": "US Financial Waste Tracker Dashboard",
+      "description": "Combining Bulk Government provided APIs to create a comprehensive dashboard for tracking and analyzing financial waste in the United States.",
       "tags": ["React", "Analytics"],
-      "image": "/Projects/waste.webp"
+      "image": "/Projects/waste2.webp",
+      "links": { "demo": "", "github": "https://github.com/Xarthling/US-Financial-Waste-Management.git", "caseStudy": "#" }
+
+    },
+     {
+      "title": "Lip Gloss Ecommerce Site",
+      "description": "Ecommece platform built with Laravel",
+      "tags": ["Laravel", "Ecommerce"],
+      "image": "/Projects/lipgloss.webp",
+      "links": { "demo": "", "github": "https://github.com/Xarthling/Lip-Gloss-Laravel.git", "caseStudy": "#" }
+
+    },
+       {
+      "title": "Grade Mate",
+      "description": "Computer vision-based student Quiz marking and performance analytics Application",
+      "tags": ["Laravel", "Ecommerce"],
+      "image": "/Projects/Grademate.webp",
+      "links": { "demo": "", "github": "https://github.com/Xarthling/Lip-Gloss-Laravel.git", "caseStudy": "#" }
+
+    },
+         {
+      "title": "Kai-Cure",
+      "description": "A doctor assistant application that utilizes LLMs to record Doctor-Patient interactions and Geneate SOAP notes.",
+      "tags": ["Django", "OpenAI", "LLM", "Healthcare", "Voice Recognition"],
+      "image": "/Projects/kaicure2.webp",
+      "links": { "demo": "", "github": "https://github.com/Xarthling/Lip-Gloss-Laravel.git", "caseStudy": "#" }
+
     },
  
     {
       "title": "Selenium Automation Bot",
       "description": "Multi-user form submission & CAPTCHA solving",
       "tags": ["Selenium", "Automation"],
-      "image": "/Projects/bot.webp"
+      "image": "/Projects/bot.webp",
+      "links": { "demo": "", "github": "https://github.com/Xarthling/Appointment-Bot.git", "caseStudy": "#" }
     },
+
          {
-      "title": "Heart Classification (YOLO)",
+      "title": "Breast Cancer Detection - Dense Net",
       "description": "Medical segmentation model",
       "tags": ["YOLO", "Medical", "Python"],
-      "image": "/Projects/Heart.webp"
-    }
+      "image": "/Projects/Breast.webp",
+      "links": { "demo": "", "github": "https://github.com/Xarthling/Breast-Cancer-Detection--DenseNet.git", "caseStudy": "#" }
+    },
+      {
+        "title": "PULSE AI",
+        "description": "Data Analysis- Machine learning based web application that taps into Buisnesses data and provides insights and predictions to drive informed decision-making.",
+        "tags": ["Analytics", "Machine Learning", "Python"],
+        "image": "/Projects/pulse.webp"
+      },
+        {
+          "title": "Chat Bot",
+          "description": "A react Based Chat Bot that utilizes OpenAI's API to provide intelligent responses and engage in natural language conversations with users.",
+          "tags": ["AI", "React", "OpenAI"],
+          "image": "/Projects/chat.webp",
+          "links": { "demo": "", "github": "https://github.com/Xarthling/ReactChatBot.git", "caseStudy": "#" }
+        }
   ],
 
   "experience": [
@@ -97,7 +140,7 @@
       "institution": "COMSATS University Islamabad" 
     },
     { 
-      "degree": "Ai/ML, Data Science", 
+      "degree": "AI/ML, Data Science", 
       "year": "2025", 
       "img": "/Experience/giki.webp", 
       "institution": "GIKI University Certified " 
