@@ -13,11 +13,11 @@ const ThemeToggle = () => {
     if (dark) {
       root.setAttribute("data-theme", "dark");
       localStorage.setItem("theme", "dark");
-      console.log("🌙 Dark mode enabled");
+      // console.log("🌙 Dark mode enabled");
     } else {
       root.setAttribute("data-theme", "light");
       localStorage.setItem("theme", "light");
-      console.log("☀️ Light mode enabled");
+      // console.log("☀️ Light mode enabled");
     }
   }, [dark]);
 
