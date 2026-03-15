@@ -57,17 +57,17 @@ const Home = () => {
   {/* Let's Collaborate Button */}
   <a href="#contact" className="w-1/2 md:w-auto">
     <Button className="w-full" variant="primary">
-      Let’s Collaborate
+      {data.hero.cta[0].label}
     </Button>
   </a>
 
   {/* View My Work Button */}
   <a href="#projects" className="w-1/2 md:w-auto">
     <Button
-      variant="outline"
-      className="w-full backdrop-blur-md"
+      variant="glass"
+      className="w-full "
     >
-      View My Work
+      {data.hero.cta[1].label}
     </Button>
   </a>
 </div>

@@ -9,6 +9,7 @@
     ]
   },
   "about": {
+    "heading": "About Me",
     "bio": "I’m Hasan Malik, a software engineer and AI enthusiast. I build intelligent, data-driven applications with a focus on elegant design and real-world impact.",
     "timeline": [
       { "year": "2022", "event": "Started as freelance AI developer" },
@@ -22,6 +23,7 @@
     ]
   },
   "skills": {
+    "heading": "Skills",
     "core": ["Python", "JavaScript", "SQL", "HTML", "CSS", "React", "FastAPI", "Django", "Flask", "Tailwind","PHP","Laravel"],
     "ai_ml": ["TensorFlow", "Scikit-learn", "Keras", "Matplotlib", "Power BI", "Azure", "Google Colab", "Ultralytics"],
     "automation_tools": ["Git", "GitHub Copilot", "Cursor", "VS Code", "MySQL", "PostgreSQL"],
@@ -36,8 +38,15 @@
       "links": { "demo": "https://www.lenzeit.com/", "caseStudy": "#" }
     },
     {
+      "title": "CropX",
+      "description": "Developed a full-stack precision agriculture system that integrates Arduino-based IoT sensors to capture real-time soil chemistry (NPK), moisture, and ambient weather. Engineered a Python-powered ML pipeline that processes live data streams to provide farmers with predictive crop health insights and automated irrigation decision-making via a React web interface.",
+      "tags": ["Analytics", "Machine Learning", "Python", "Web", "Arduino"],
+      "image": "/Projects/cropx.webp",
+      "links": { "demo": "", "github": "https://github.com/Xarthling/CropX.git", "caseStudy": "#" }
+    },
+    {
       "title": "Fraud Detection System",
-      "description": "Flask-based ML app with admin dashboard",
+      "description": "Built a robust anomaly detection engine using the XGBoost algorithm to identify fraudulent transactions in real-time. Designed a custom Flask Admin Dashboard for security analysts to monitor model confidence scores, manage alert logs, and fine-tune detection parameters without touching the underlying code.",
       "tags": ["ML", "Flask", "Admin"],
       "image": "/Projects/FD.webp",
       "links": { "demo": "", "github": "https://github.com/Xarthling/Bank-Fraud-Detection.git", "caseStudy": "#" }
@@ -93,7 +102,7 @@
     },
       {
         "title": "PULSE AI",
-        "description": "Data Analysis- Machine learning based web application that taps into Buisnesses data and provides insights and predictions to drive informed decision-making.",
+        "description": "A high-performance Big Data Analytics platform that leverages Machine Learning to ingest complex corporate datasets. The system identifies hidden patterns and market anomalies, delivering predictive forecasts that allow stakeholders to transition from reactive to data-driven proactive decision-making.",
         "tags": ["Analytics", "Machine Learning", "Python"],
         "image": "/Projects/pulse.webp"
       },
@@ -127,7 +136,7 @@
     },
     { 
       "role": "Freelance Developer", 
-      "year": "2022-2023", 
+      "year": "2022-Ongoing", 
       "img": "/Experience/free.webp", 
       "details": "Delivered high-quality software solutions for a diverse range of international clients." 
     }
@@ -172,6 +181,7 @@
   },
   "cta": {
     "heading": "Let’s collaborate.",
+    "tagline": "Call To Action",
     "image": "/Projects/ice-age.webp",
     "description": "I’m always open to new opportunities and collaborations. Whether you have a project in mind or just want to connect, feel free to reach out!",
     "button": { "label": "Contact Me", "link": "#contact" }

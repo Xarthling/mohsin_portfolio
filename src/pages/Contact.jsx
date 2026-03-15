@@ -41,11 +41,11 @@ const Contact = () => {
     emailjs.sendForm(serviceID, templateID, formRef.current)
       .then(() => {
         setIsSending(false);
-        alert('Sent!');
+        // alert('Sent!');
         formRef.current.reset();
       }, (err) => {
         setIsSending(false);
-        alert(JSON.stringify(err));
+        // alert(JSON.stringify(err));
       });
   };
   // ----------------------

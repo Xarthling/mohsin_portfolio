@@ -48,7 +48,7 @@
   }
   .heading {
     /* Mobile-first: start small, scale up */
-    @apply text-6xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-6 text-[#0a0a0a] dark:text-gray-100;
+    @apply text-6xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-6 text-[#0a0a0a] dark:text-gray-100 ;
 }
   .subtext {
   /* text-lg (mobile) -> text-xl (tablet) -> text-2xl (desktop) */
@@ -70,7 +70,9 @@
  
 }
 
-
+#projects {
+  scroll-margin-top: 100px; /* Adjust based on your navbar height */
+}
 .grain-overlay {
   position: relative;
 }

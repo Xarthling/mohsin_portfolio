@@ -32,7 +32,7 @@ const Achievements = () => {
             >
               <Icon className="w-5 h-5 fill-current" /> Testimonials
             </motion.p>
-            <h2 className="heading text-white">
+            <h2 className="heading text-white ">
               Success leaves clues.
             </h2>
           </div>

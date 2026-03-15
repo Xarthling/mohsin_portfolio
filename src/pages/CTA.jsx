@@ -28,9 +28,9 @@ export default function CTA() {
                 transition={{ delay: 0.3 }}
                 className="flex items-center gap-3 text-emerald-400 font-black uppercase tracking-[0.3em] text-xs mb-6 bg-white/5 px-4 py-2 rounded-full backdrop-blur-sm"
               >
-                <Icon className="w-5 h-5 fill-current" /> Call To Action
+                <Icon className="w-5 h-5 fill-current" /> {data.cta.tagline}
               </motion.p>
-              <h2 className="heading text-white">{data.cta.heading}</h2>
+              <h2 className="heading text-left text-white">{data.cta.heading}</h2>
             </div>
             <p className=" subtext my-6 text-white max-w-xl">
               {data.cta.description}

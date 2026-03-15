@@ -64,7 +64,7 @@ const About = () => {
         transition={{ duration: 0.7, delay: 0.2 }}
       >
         {/* Bio */}
-        <h2 className="heading">About Me</h2>
+        <h2 className="heading">{data.about.heading}</h2>
         <p className="subtext">{data.about.bio}</p>
 
     

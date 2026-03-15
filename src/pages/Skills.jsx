@@ -164,9 +164,9 @@ const SkillNetwork = () => {
           <motion.p 
              animate={{ scale: [1, 1.1, 1] }}
              transition={{ duration: 3, repeat: Infinity }}
-             className="text-2xl md:text-3xl font-bold"
+             className="text-2xl text-center md:text-3xl font-bold"
           >
-            Skills
+            {data.skills.heading}
           </motion.p>
         </motion.div>
 
