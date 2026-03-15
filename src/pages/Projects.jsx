@@ -35,8 +35,8 @@ const Projects = () => {
   const visibleProjects = showAll ? data.projects : data.projects.slice(0, 4);
 
   return (
-    <SectionWrapper  id="projects">
-      {/* Header */}
+<div ref={projectSectionRef}>
+  <SectionWrapper id="projects">      {/* Header */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-4 mb-16">
         <div>
           <h2 className="heading">Projects</h2>
@@ -116,16 +116,6 @@ const Projects = () => {
       {/* Show More / Show Less Button */}
       {data.projects.length > 4 && (
         <div className="mt-16 flex justify-center">
-          {/* <button
-            onClick={() => setShowAll(!showAll)}
-            className="flex items-center gap-2 px-8 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-full transition-all shadow-lg hover:shadow-indigo-500/25 active:scale-95"
-          >
-            {showAll ? (
-              <>Show Less <FaChevronUp /></>
-            ) : (
-              <>Show All Projects <FaChevronDown /></>
-            )}
-          </button> */}
           <Button
             variant="glass"
             className="flex items-center gap-2"
@@ -144,6 +134,7 @@ const Projects = () => {
         </div>
       )}
     </SectionWrapper>
+    </div>
   );
 };
 
