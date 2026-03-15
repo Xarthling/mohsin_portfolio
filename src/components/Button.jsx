@@ -10,7 +10,7 @@ const Button = ({ children, variant = "primary", className = "", ...props }) => 
     outline:
       "border border-indigo-600 text-indigo-600 dark:border-indigo-400 dark:text-indigo-400 bg-transparent hover:bg-indigo-50 dark:hover:bg-indigo-800/40",
     glass:
-      "bg-white/10 backdrop-blur-lg border border-white/20 text-indigo-600 dark:text-indigo-400 hover:bg-white/20 dark:hover:bg-gray-800/40",
+      "bg-white/10 backdrop-blur-lg border border-indigo-500/40  dark:border-white/20  text-indigo-600 dark:text-indigo-400 hover:bg-white/20 dark:hover:bg-gray-800/40",
   };
   return (
     <motion.button
