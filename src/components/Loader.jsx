@@ -36,18 +36,14 @@ const Loader = ({ finishLoading }) => {
           className="relative w-20 h-20 mb-10 flex items-center justify-center text-indigo-600 dark:text-indigo-400"
         >
           {/* A. The "Halo" Glow (Background Element) */}
-          <motion.div
-            animate={{
-              opacity: [0.2, 0.6, 0.2],
-              scale: [1, 1.3, 1],
-            }}
-            transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+          <div
+          
             className="absolute -inset-4 rounded-full bg-indigo-500/30 blur-[20px] dark:blur-[30px] z-0 pointer-events-none"
           />
 
           {/* B. The Actual Icon (Foreground Element) */}
           <Icon className="w-full h-full fill-current relative z-10" />
-        </motion.div>
+        </div>
 
         {/* 2. Percentage Counter */}
         <h1 className="text-6xl md:text-8xl font-black tracking-tighter italic select-none">
