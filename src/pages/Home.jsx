@@ -55,14 +55,14 @@ const Home = () => {
         {/* Button Container */}
         <div className="flex flex-col md:flex-row items-start md:items-center gap-4 w-full">
   {/* Let's Collaborate Button */}
-  <a href="#contact" className="w-1/2 md:w-auto">
+  <a href="#projects" className="w-1/2 md:w-auto">
     <Button className="w-full" variant="primary">
       {data.hero.cta[0].label}
     </Button>
   </a>
 
   {/* View My Work Button */}
-  <a href="#projects" className="w-1/2 md:w-auto">
+  <a href="#contact" className="w-1/2 md:w-auto">
     <Button
       variant="glass"
       className="w-full "
