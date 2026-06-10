@@ -44,18 +44,18 @@ const Loader = ({ finishLoading }) => {
         </div>
 
         {/* 2. Percentage Counter */}
-        <h1 className="text-6xl md:text-8xl font-black tracking-tighter italic select-none">
+        {/* <h1 className="text-6xl md:text-8xl font-black tracking-tighter italic select-none">
           {progress}
           <span className="text-indigo-600 dark:text-indigo-400">%</span>
-        </h1>
+        </h1> */}
 
         {/* 3. Progress Bar Container */}
-        {/* <div className="w-56 h-[4px] bg-neutral-200 dark:bg-white/10 mt-8 rounded-full overflow-hidden">
+        <div className="w-56 h-[4px] bg-neutral-200 dark:bg-white/10 mt-8 rounded-full overflow-hidden">
           <motion.div
             className="h-full bg-emerald-500 shadow-[0_0_15px_rgba(16,185,129,0.6)]"
             style={{ width: `${progress}%` }}
           />
-        </div> */}
+        </div> 
 
         {/* 4. Terminal Text */}
         <motion.div
