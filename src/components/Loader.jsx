@@ -30,9 +30,7 @@ const Loader = ({ finishLoading }) => {
 >
       <div className="relative flex flex-col items-center">
         {/* 1. Logo with Synchronized Halo Animation */}
-        <motion.div
-          animate={{ scale: [1, 1.1, 1] }}
-          transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+        <div
           className="relative w-20 h-20 mb-10 flex items-center justify-center text-indigo-600 dark:text-indigo-400"
         >
           {/* A. The "Halo" Glow (Background Element) */}
