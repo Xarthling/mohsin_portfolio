@@ -50,12 +50,12 @@ const Loader = ({ finishLoading }) => {
         </h1>
 
         {/* 3. Progress Bar Container */}
-        <div className="w-56 h-[4px] bg-neutral-200 dark:bg-white/10 mt-8 rounded-full overflow-hidden">
+        {/* <div className="w-56 h-[4px] bg-neutral-200 dark:bg-white/10 mt-8 rounded-full overflow-hidden">
           <motion.div
             className="h-full bg-emerald-500 shadow-[0_0_15px_rgba(16,185,129,0.6)]"
             style={{ width: `${progress}%` }}
           />
-        </div>
+        </div> */}
 
         {/* 4. Terminal Text */}
         <motion.div
@@ -66,7 +66,7 @@ const Loader = ({ finishLoading }) => {
           <p className="text-[10px] md:text-xs uppercase tracking-[0.5em] text-indigo-600 dark:text-indigo-400 font-mono font-bold">
             // Executing Main_Portfolio.sh
           </p>
-          <div className="flex gap-1">
+          {/* <div className="flex gap-1">
             {[0, 1, 2].map((i) => (
               <motion.span
                 key={i}
@@ -75,7 +75,7 @@ const Loader = ({ finishLoading }) => {
                 className="w-1 h-1 bg-emerald-500 rounded-full"
               />
             ))}
-          </div>
+          </div> */}
         </motion.div>
       </div>
     </motion.div>
