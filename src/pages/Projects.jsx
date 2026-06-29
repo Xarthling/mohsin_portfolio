@@ -1,5 +1,5 @@
-import { useState, useRef } from "react"; // Added useRefimport data from "../utils/data.json";
-import { motion, AnimatePresence } from "framer-motion"; // Added AnimatePresence
+import { useState, useRef } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import Card from "../components/Card";
 import Tag from "../components/Tag";
 import SectionWrapper from "../components/SectionWrapper";
@@ -16,7 +16,7 @@ import {
 
 const Projects = () => {
   const [showAll, setShowAll] = useState(false);
-  const projectSectionRef = useRef(null); // Create a reference
+  const projectSectionRef = useRef(null);
 
   const handleToggle = () => {
     if (showAll) {

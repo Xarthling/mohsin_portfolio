@@ -31,9 +31,8 @@ const AppRoutes = () => {
         )}
       </AnimatePresence>
 
-      {/* Only render content once loading is handled, or use motion to fade it in */}
-      {!isLoading && (
-        <MainLayout>
+      <MainLayout>
+        <div aria-busy={isLoading}>
           <Home />
           <Projects />
           <CTA />
@@ -43,8 +42,8 @@ const AppRoutes = () => {
           <ExperienceEducation />
           <Achievements />
           <Contact />
-        </MainLayout>
-      )}
+        </div>
+      </MainLayout>
     </>
   );
 };
