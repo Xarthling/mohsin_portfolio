@@ -17,14 +17,16 @@
       { "year": "2024", "event": "Joined TachonTech as a software engineer" },
       { "year": "2024", "event": "Certification in AI Engineering" },
       { "year": "2025", "event": "Joined Amal-Axis as Ai Engineer" },
-      { "year": "2025", "event": "Launched Lenzeit" }
+      { "year": "2025", "event": "Launched Lenzeit" },
+      { "year": "2026", "event": "Co-founded ChatSetGO" }
+
       
 
     ]
   },
   "skills": {
     "heading": "Skills",
-    "core": ["Python", "JavaScript", "SQL", "HTML", "CSS", "React", "FastAPI", "Django", "Flask", "Tailwind","PHP","Laravel"],
+    "core": ["Python", "JavaScript", "SQL", "HTML", "CSS", "React", "FastAPI", "Django", "Flask", "Tailwind","PHP","Laravel","n8n"],
     "ai_ml": ["TensorFlow", "Scikit-learn", "Keras", "Matplotlib", "Power BI", "Azure", "Google Colab", "Ultralytics"],
     "automation_tools": ["Git", "GitHub Copilot", "Cursor", "VS Code", "MySQL", "PostgreSQL"],
     "design_tools": ["Figma", "Canva"]
@@ -33,10 +35,18 @@
     {
       "title": "Lenzeit",
       "description": "AI-powered media delivery system for photography studios",
-      "tags": ["AI", "React", "Flask"],
+      "tags": ["AI", "React", "Django"],
       "image": "/Projects/lenzeit cover.webp",
       "links": { "demo": "https://www.lenzeit.com/", "caseStudy": "#" }
     },
+        {
+      "title": "ChatSetGo",
+      "description": "ChatSetGo builds WhatsApp bots, AI workflows, and business automation.",
+      "tags": ["AI", "React", "n8n","Django"],
+      "image": "/Projects/ChatsetGo.webp",
+      "links": { "demo": "https://www.chatsetgo.tech/", "caseStudy": "#" }
+    },
+
     {
       "title": "CropX",
       "description": "Developed a full-stack precision agriculture system that integrates Arduino-based IoT sensors to capture real-time soil chemistry (NPK), moisture, and ambient weather. Engineered a Python-powered ML pipeline that processes live data streams to provide farmers with predictive crop health insights and automated irrigation decision-making via a React web interface.",
@@ -116,6 +126,12 @@
   ],
 
   "experience": [
+    { 
+      "role": "Founder", 
+      "year": "2025-Present", 
+      "img": "/Experience/chatsetgo.webp", 
+      "details": "ChatSetGo is a WhatsApp business automation platform that streamlines customer communication and business workflows using AI and automation." 
+    },
     { 
       "role": "Founder", 
       "year": "2025-Present", 

@@ -2,7 +2,7 @@ import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import { useEffect } from "react";
 import data from "../utils/data.json";
 import SectionWrapper from "../components/SectionWrapper";
-import { FiCpu, FiCode, FiDatabase, FiBarChart  } from "react-icons/fi";
+import { FiCpu, FiCode, FiDatabase, FiBarChart } from "react-icons/fi";
 import { FaPython, FaReact, FaFlask, FaGitAlt, FaGithub } from "react-icons/fa";
 import {
   SiJavascript,
@@ -19,15 +19,16 @@ import {
   SiFigma,
   SiCanva,
   SiGooglecolab,
-  SiPlotly ,
-    SiLaravel, 
-  SiPhp
+  SiPlotly,
+  SiLaravel,
+  SiPhp,
+  SiN8N,
 } from "react-icons/si";
 
 import AzureIcon from "../assets/skills/Azure-Light.svg?react";
 import YoloIcon from "../assets/skills/yolo.svg?react";
 import CursorIcon from "../assets/skills/cursor.svg?react";
-import CardSwap, { Card } from '../components/CardSwap';
+import CardSwap, { Card } from "../components/CardSwap";
 
 const iconMap = {
   Python: <FaPython />,
@@ -40,7 +41,7 @@ const iconMap = {
   "Power BI": <FiBarChart />,
   FastAPI: <SiFastapi />,
   Django: <SiDjango />,
-    Laravel: <SiLaravel />,
+  Laravel: <SiLaravel />,
   PHP: <SiPhp />,
   Flask: <FaFlask />,
   Tailwind: <SiTailwindcss />,
@@ -51,7 +52,7 @@ const iconMap = {
   Keras: <SiKeras />,
   Matplotlib: <SiPlotly />,
   "Google Colab": <SiGooglecolab />,
-
+  n8n: <SiN8N />,
   Git: <FaGitAlt />,
   "GitHub Copilot": <FaGithub />,
 
@@ -158,13 +159,18 @@ const SkillNetwork = () => {
           initial={{ scale: 0 }}
           whileInView={{ scale: 1 }}
           viewport={{ once: true }}
-          transition={{ type: "spring", stiffness: 260, damping: 20, delay: 0.2 }}
+          transition={{
+            type: "spring",
+            stiffness: 260,
+            damping: 20,
+            delay: 0.2,
+          }}
           className="absolute z-10 bg-indigo-600 dark:bg-indigo-500 text-white dark:text-gray-50 backdrop-blur-lg border border-white/20 w-24 h-24 md:w-28 md:h-28 rounded-full shadow-[0_0_60px_rgba(99,102,241,0.6)] flex flex-col justify-center items-center"
         >
-          <motion.p 
-             animate={{ scale: [1, 1.1, 1] }}
-             transition={{ duration: 3, repeat: Infinity }}
-             className="text-2xl text-center md:text-3xl font-bold"
+          <motion.p
+            animate={{ scale: [1, 1.1, 1] }}
+            transition={{ duration: 3, repeat: Infinity }}
+            className="text-2xl text-center md:text-3xl font-bold"
           >
             {data.skills.heading}
           </motion.p>
@@ -178,16 +184,16 @@ const SkillNetwork = () => {
             // START AT CENTER (0,0 relative to parent)
             initial={{ x: 0, y: 0, opacity: 0 }}
             // BLOOM OUT TO CALCULATED COORDS
-            whileInView={{ 
-              x: skill.x, 
-              y: skill.y, 
+            whileInView={{
+              x: skill.x,
+              y: skill.y,
               opacity: 1,
               // Once it arrives, start the floating hover animation
-              transition: { 
-                type: "spring", 
-                stiffness: 50, 
+              transition: {
+                type: "spring",
+                stiffness: 50,
                 delay: i * 0.03,
-              }
+              },
             }}
             // SEPARATE FLOAT ANIMATION (continuous)
             animate={{
