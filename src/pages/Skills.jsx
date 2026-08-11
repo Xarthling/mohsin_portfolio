@@ -33,7 +33,7 @@ import CardSwap, { Card } from "../components/CardSwap";
 const iconMap = {
   Python: <FaPython />,
   JavaScript: <SiJavascript />,
-  Cursor: <CursorIcon className="w-full h-full fill-current" />,
+  Cursor: <CursorIcon  />,
   SQL: <FiDatabase />,
   HTML: <SiHtml5 />,
   CSS: <SiCss3 />,
@@ -45,7 +45,7 @@ const iconMap = {
   PHP: <SiPhp />,
   Flask: <FaFlask />,
   Tailwind: <SiTailwindcss />,
-  Azure: <AzureIcon className="w-full h-full fill-current" />,
+  Azure: <AzureIcon  />,
   Ultralytics: <YoloIcon className="w-full h-full fill-current" />,
   TensorFlow: <SiTensorflow />,
   "Scikit-learn": <SiScikitlearn />,

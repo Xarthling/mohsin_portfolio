@@ -114,6 +114,7 @@ const skillStacks = [
       "Git",
       "GitHub Copilot",
       "VS Code",
+      "n8n"
     ],
   },
   {

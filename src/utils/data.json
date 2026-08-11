@@ -1,6 +1,6 @@
 {
   "hero": {
-    "name": "Hi im Hasan Malik !",
+    "name": "Hi im Hassan Malik !",
     "tagline": "Elegant Intelligence — where design meets data.",
     "intro": "AI Engineer & Software Developer passionate about crafting intelligent, data-driven systems that blend design, automation, and real-world impact.",
     "cta": [
@@ -10,7 +10,7 @@
   },
   "about": {
     "heading": "About Me",
-    "bio": "I’m Hasan Malik, a software engineer and AI enthusiast. I build intelligent, data-driven applications with a focus on elegant design and real-world impact.",
+    "bio": "I’m Hassan Malik, a software engineer and AI enthusiast. I build intelligent, data-driven applications with a focus on elegant design and real-world impact.",
     "timeline": [
       { "year": "2022", "event": "Started as freelance AI developer" },
       { "year": "2023", "event": "Built Lenzeit AI media system" },
@@ -26,104 +26,154 @@
   },
   "skills": {
     "heading": "Skills",
-    "core": ["Python", "JavaScript", "SQL", "HTML", "CSS", "React", "FastAPI", "Django", "Flask", "Tailwind","PHP","Laravel","n8n"],
+    "core": ["Python", "JavaScript", "SQL", "HTML", "CSS", "React", "FastAPI", "Django", "Flask", "Tailwind","PHP","Laravel","n8n","Langchain"],
     "ai_ml": ["TensorFlow", "Scikit-learn", "Keras", "Matplotlib", "Power BI", "Azure", "Google Colab", "Ultralytics"],
     "automation_tools": ["Git", "GitHub Copilot", "Cursor", "VS Code", "MySQL", "PostgreSQL"],
     "design_tools": ["Figma", "Canva"]
   },
-  "projects": [
-    {
-      "title": "Lenzeit",
-      "description": "AI-powered media delivery system for photography studios",
-      "tags": ["AI", "React", "Django"],
-      "image": "/Projects/lenzeit cover.webp",
-      "links": { "demo": "https://www.lenzeit.com/", "caseStudy": "#" }
-    },
-        {
-      "title": "ChatSetGo",
-      "description": "ChatSetGo builds WhatsApp bots, AI workflows, and business automation.",
-      "tags": ["AI", "React", "n8n","Django"],
-      "image": "/Projects/ChatsetGo.webp",
-      "links": { "demo": "https://www.chatsetgo.tech/", "caseStudy": "#" }
-    },
-
-    {
-      "title": "CropX",
-      "description": "Developed a full-stack precision agriculture system that integrates Arduino-based IoT sensors to capture real-time soil chemistry (NPK), moisture, and ambient weather. Engineered a Python-powered ML pipeline that processes live data streams to provide farmers with predictive crop health insights and automated irrigation decision-making via a React web interface.",
-      "tags": ["Analytics", "Machine Learning", "Python", "Web", "Arduino"],
-      "image": "/Projects/cropx.webp",
-      "links": { "demo": "", "github": "https://github.com/Xarthling/CropX.git", "caseStudy": "#" }
-    },
-    {
-      "title": "Fraud Detection System",
-      "description": "Built a robust anomaly detection engine using the XGBoost algorithm to identify fraudulent transactions in real-time. Designed a custom Flask Admin Dashboard for security analysts to monitor model confidence scores, manage alert logs, and fine-tune detection parameters without touching the underlying code.",
-      "tags": ["ML", "Flask", "Admin"],
-      "image": "/Projects/FD.webp",
-      "links": { "demo": "", "github": "https://github.com/Xarthling/Bank-Fraud-Detection.git", "caseStudy": "#" }
-    },
-  
-    {
-      "title": "US Financial Waste Tracker Dashboard",
-      "description": "Combining Bulk Government provided APIs to create a comprehensive dashboard for tracking and analyzing financial waste in the United States.",
-      "tags": ["React", "Analytics"],
-      "image": "/Projects/waste2.webp",
-      "links": { "demo": "", "github": "https://github.com/Xarthling/US-Financial-Waste-Management.git", "caseStudy": "#" }
-
-    },
-     {
-      "title": "Lip Gloss Ecommerce Site",
-      "description": "Ecommece platform built with Laravel",
-      "tags": ["Laravel", "Ecommerce"],
-      "image": "/Projects/lipgloss.webp",
-      "links": { "demo": "", "github": "https://github.com/Xarthling/Lip-Gloss-Laravel.git", "caseStudy": "#" }
-
-    },
-       {
-      "title": "Grade Mate",
-      "description": "Computer vision-based student Quiz marking and performance analytics Application",
-      "tags": ["Laravel", "Ecommerce"],
-      "image": "/Projects/Grademate.webp",
-      "links": { "demo": "", "github": "https://github.com/Xarthling/Lip-Gloss-Laravel.git", "caseStudy": "#" }
-
-    },
-         {
-      "title": "Kai-Cure",
-      "description": "A doctor assistant application that utilizes LLMs to record Doctor-Patient interactions and Geneate SOAP notes.",
-      "tags": ["Django", "OpenAI", "LLM", "Healthcare", "Voice Recognition"],
-      "image": "/Projects/kaicure2.webp",
-      "links": { "demo": "", "github": "https://github.com/Xarthling/Lip-Gloss-Laravel.git", "caseStudy": "#" }
-
-    },
- 
-    {
-      "title": "Selenium Automation Bot",
-      "description": "Multi-user form submission & CAPTCHA solving",
-      "tags": ["Selenium", "Automation"],
-      "image": "/Projects/bot.webp",
-      "links": { "demo": "", "github": "https://github.com/Xarthling/Appointment-Bot.git", "caseStudy": "#" }
-    },
-
-         {
-      "title": "Breast Cancer Detection - Dense Net",
-      "description": "Medical segmentation model",
-      "tags": ["YOLO", "Medical", "Python"],
-      "image": "/Projects/Breast.webp",
-      "links": { "demo": "", "github": "https://github.com/Xarthling/Breast-Cancer-Detection--DenseNet.git", "caseStudy": "#" }
-    },
-      {
-        "title": "PULSE AI",
-        "description": "A high-performance Big Data Analytics platform that leverages Machine Learning to ingest complex corporate datasets. The system identifies hidden patterns and market anomalies, delivering predictive forecasts that allow stakeholders to transition from reactive to data-driven proactive decision-making.",
-        "tags": ["Analytics", "Machine Learning", "Python"],
-        "image": "/Projects/pulse.webp"
-      },
-        {
-          "title": "Chat Bot",
-          "description": "A react Based Chat Bot that utilizes OpenAI's API to provide intelligent responses and engage in natural language conversations with users.",
-          "tags": ["AI", "React", "OpenAI"],
-          "image": "/Projects/chat.webp",
-          "links": { "demo": "", "github": "https://github.com/Xarthling/ReactChatBot.git", "caseStudy": "#" }
-        }
-  ],
+"projects": [
+{
+"title": "Lenzeit",
+"description": "AI-powered media delivery platform for photographers and studios. Built features including AI photo sorting, face-based photo discovery, privacy-controlled event galleries, and automated media delivery workflows.",
+"tags": ["AI", "Computer Vision", "React", "Django", "SaaS"],
+"image": "/Projects/lenzeit cover.webp",
+"links": {
+"demo": "https://www.lenzeit.com/",
+"caseStudy": "#"
+}
+},
+{
+"title": "Citizen Rights Legal RAG",
+"description": "Legal question-answering system built with a hybrid RAG architecture combining semantic vector search, BM25 keyword retrieval, and a knowledge graph to improve retrieval of legal provisions, sections, and relationships across Pakistani legal documents.",
+"tags": ["RAG", "LLM", "NLP", "Knowledge Graph", "BM25", "Python"],
+"image": "/Projects/RAG.png",
+"links": {
+"demo": "",
+"github": "",
+"caseStudy": "#"
+}
+},
+{
+"title": "ChatSetGo",
+"description": "AI-powered business automation platform for WhatsApp and social messaging. Built conversational AI workflows, automated customer interactions, backend services, and workflow automation using LLMs, Django, React, and n8n.",
+"tags": ["AI", "LLM", "Automation", "React", "Django", "n8n"],
+"image": "/Projects/ChatsetGo.webp",
+"links": {
+"demo": "https://www.chatsetgo.tech/",
+"caseStudy": "#"
+}
+},
+{
+"title": "Kai-Cure",
+"description": "AI-powered clinical assistant that uses voice recognition and LLMs to process doctor-patient conversations and generate structured SOAP notes, reducing manual documentation and helping clinicians organize consultation records.",
+"tags": ["LLM", "OpenAI", "Django", "Voice AI", "Healthcare"],
+"image": "/Projects/kaicure2.webp",
+"links": {
+"demo": "",
+"github": "",
+"caseStudy": "#"
+}
+},
+{
+"title": "Grade Mate",
+"description": "AI-assisted academic assessment platform that automates quiz and assignment evaluation while providing student performance analytics. Built with a web frontend and Django backend, with computer vision and NLP-based capabilities for automated assessment workflows.",
+"tags": ["AI", "Computer Vision", "NLP", "Django", "Analytics"],
+"image": "/Projects/Grademate.webp",
+"links": {
+"demo": "",
+"github": "",
+"caseStudy": "#"
+}
+},
+{
+"title": "CropX",
+"description": "Full-stack precision agriculture system integrating Arduino-based IoT sensors to collect real-time soil and environmental data. Built a Python machine learning pipeline to analyze NPK, moisture, and weather data and provide predictive crop insights and irrigation recommendations through a React interface.",
+"tags": ["Machine Learning", "IoT", "Python", "React", "Arduino"],
+"image": "/Projects/cropx.webp",
+"links": {
+"demo": "",
+"github": "https://github.com/Xarthling/CropX.git",
+"caseStudy": "#"
+}
+},
+{
+"title": "Fraud Detection System",
+"description": "Machine learning fraud detection system using XGBoost to identify potentially fraudulent financial transactions. Includes a Flask-based administration dashboard for monitoring predictions, confidence scores, alerts, and model outputs.",
+"tags": ["Machine Learning", "XGBoost", "Python", "Flask", "Analytics"],
+"image": "/Projects/FD.webp",
+"links": {
+"demo": "",
+"github": "https://github.com/Xarthling/Bank-Fraud-Detection.git",
+"caseStudy": "#"
+}
+},
+{
+"title": "PULSE AI",
+"description": "Big Data analytics and machine learning platform designed to process complex corporate datasets, uncover hidden patterns and anomalies, and generate predictive insights to support data-driven business decisions.",
+"tags": ["Big Data", "Machine Learning", "Analytics", "Python"],
+"image": "/Projects/pulse.webp",
+"links": {
+"demo": "",
+"caseStudy": "#"
+}
+},
+{
+"title": "Breast Cancer Detection",
+"description": "Deep learning computer vision project for detecting and segmenting breast cancer-related abnormalities from medical imagery. Explored deep learning-based image analysis and segmentation workflows using Python and modern computer vision techniques.",
+"tags": ["Deep Learning", "Computer Vision", "Medical AI", "Python"],
+"image": "/Projects/Breast.webp",
+"links": {
+"demo": "",
+"github": "https://github.com/Xarthling/Breast-Cancer-Detection--DenseNet.git",
+"caseStudy": "#"
+}
+},
+{
+"title": "US Financial Waste Tracker",
+"description": "Interactive analytics dashboard that combines publicly available US government data and APIs to explore, track, and analyze government financial spending and potential waste.",
+"tags": ["React", "Data Analytics", "APIs", "Visualization"],
+"image": "/Projects/waste2.webp",
+"links": {
+"demo": "",
+"github": "https://github.com/Xarthling/US-Financial-Waste-Management.git",
+"caseStudy": "#"
+}
+},
+{
+"title": "Selenium Automation Bot",
+"description": "Browser automation system designed for multi-user form submission workflows. Automated repetitive web interactions using Selenium and implemented mechanisms for handling CAPTCHA-based workflows.",
+"tags": ["Selenium", "Python", "Automation", "Web Scraping"],
+"image": "/Projects/bot.webp",
+"links": {
+"demo": "",
+"github": "https://github.com/Xarthling/Appointment-Bot.git",
+"caseStudy": "#"
+}
+},
+{
+"title": "Lip Gloss Ecommerce",
+"description": "Full-stack ecommerce platform developed with Laravel, implementing product management, customer-facing shopping workflows, and backend ecommerce functionality.",
+"tags": ["Laravel", "PHP", "MySQL", "Ecommerce"],
+"image": "/Projects/lipgloss.webp",
+"links": {
+"demo": "",
+"github": "https://github.com/Xarthling/Lip-Gloss-Laravel.git",
+"caseStudy": "#"
+}
+},
+{
+"title": "React AI Chatbot",
+"description": "Web-based conversational AI application built with React and OpenAI's API, providing users with real-time natural language conversations through a responsive chat interface.",
+"tags": ["AI", "React", "OpenAI", "API"],
+"image": "/Projects/chat.webp",
+"links": {
+"demo": "",
+"github": "https://github.com/Xarthling/ReactChatBot.git",
+"caseStudy": "#"
+}
+}
+]
+,
 
   "experience": [
     { 
