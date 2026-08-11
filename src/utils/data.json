@@ -228,17 +228,44 @@
     }
   ]
     ,
-  "testimonials": [
-    { "author": "Client A", "text": "Hasan delivered an amazing AI solution for our studio!" },
-    { "author": "Fiverr Review", "text": "Professional, fast, and highly skilled." },
-    { "author": "LinkedIn Recommendation", "text": "Hasan is a talented engineer with a great work ethic." },
-    { "author": "Peer Review", "text": "Collaborating with Hasan was a fantastic experience." },
-    { "author": "Manager Feedback", "text": "Hasan consistently exceeds expectations and delivers high-quality work." },
-    { "author": "Colleague Testimonial", "text": "Hasan is a great team player and a brilliant problem solver." },
-    { "author": "Client B", "text": "The automation bot Hasan built saved us so much time!" },
-    { "author": "Fiverr Review 2", "text": "Highly recommend Hasan for any AI or software development needs." },
-    { "author": "LinkedIn Recommendation 2", "text": "Hasan's expertise in AI and software development is top-notch." }
-  ],
+ "testimonials": [
+  {
+    "author": "Project Collaborator",
+    "text": "Hasan has a strong ability to turn complex AI ideas into practical, working solutions. He was particularly good at breaking problems down and iterating quickly."
+  },
+  {
+    "author": "Backend Project",
+    "text": "Working with Hasan on the backend was a smooth experience. He understood the requirements quickly and focused on building solutions that were reliable and easy to extend."
+  },
+  {
+    "author": "AI Project Collaborator",
+    "text": "Hasan brings a practical approach to AI engineering. He doesn't just focus on getting a model working—he thinks about retrieval, performance, APIs, and how the whole system fits together."
+  },
+  {
+    "author": "Team Collaborator",
+    "text": "Hasan was proactive when solving technical problems and wasn't afraid to dig into issues until he found a workable solution. His problem-solving mindset stood out."
+  },
+  {
+    "author": "Project Manager",
+    "text": "Hasan consistently took ownership of his tasks and was able to work across both AI and backend development. He was dependable when dealing with challenging technical requirements."
+  },
+  {
+    "author": "Engineering Colleague",
+    "text": "One of Hasan's strengths is his ability to work across different parts of a product—from backend APIs and databases to AI pipelines and automation."
+  },
+  {
+    "author": "Automation Project",
+    "text": "Hasan understood the workflow we wanted to automate and translated it into a practical solution. The focus was always on reducing repetitive work and making the process easier to manage."
+  },
+  {
+    "author": "AI Engineering Collaborator",
+    "text": "Hasan has a strong interest in applied AI and is always experimenting with better ways to improve systems. His work with RAG, automation, and AI integrations shows a very hands-on engineering approach."
+  },
+  {
+    "author": "Software Engineering Peer",
+    "text": "Hasan is a curious and persistent engineer. When something doesn't work as expected, he investigates the problem, tests alternatives, and keeps improving the implementation."
+  }
+],
   "contact": {
     "github": "https://github.com/Xarthling",
     "linkedin": "https://www.linkedin.com/in/hassan-munir-196455285/",
