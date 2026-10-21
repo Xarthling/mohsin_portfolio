@@ -36,10 +36,10 @@ const AppRoutes = () => {
           <Home />
           <Projects />
           <CTA />
-          <About />
-          <SkillNetwork />
-          <Stacks />
-          <ExperienceEducation />
+          {/* <About /> */}
+          {/* <SkillNetwork /> */}
+          {/* <Stacks /> */}
+          {/* <ExperienceEducation /> */}
           <Achievements />
           <Contact />
         </div>

@@ -44,7 +44,7 @@
 /* ---------- Components ---------- */
 @layer components {
   .section {
-    @apply py-20 px-3 md:px-6 lg:px-12  w-full m-1 overflow-hidden;
+    @apply py-10 px-3 md:px-6 lg:px-12  w-full m-1 overflow-hidden;
   }
   .heading {
     /* Mobile-first: start small, scale up */

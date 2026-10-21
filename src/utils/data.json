@@ -1,275 +1,417 @@
 {
   "hero": {
-    "name": "Hi im Hassan Malik !",
-    "tagline": "Elegant Intelligence — where design meets data.",
-    "intro": "AI Engineer & Software Developer passionate about crafting intelligent, data-driven systems that blend design, automation, and real-world impact.",
+    "name": "Hi im Mohsin Malik !",
+    "tagline": "We’ll Triple Your Reach in 90 Days — If We Don’t, You Pay $0.",
+    "intro": "Across 20+ niches, business owners have used this system to generate 530M+ organic views and 2.4M+ new followers.",
     "cta": [
-      { "label": "View My Work", "link": "#projects" },
-      { "label": "Let’s Collaborate", "link": "#contact" }
+      {
+        "label": "View My Work",
+        "link": "#projects"
+      },
+      {
+        "label": "Let’s Collaborate",
+        "link": "#contact"
+      }
     ]
   },
   "about": {
     "heading": "About Me",
-    "bio": "I’m Hassan Malik, a software engineer and AI enthusiast. I build intelligent, data-driven applications with a focus on elegant design and real-world impact.",
+    "bio": "I’m Mohsin Malik, a software engineer and AI enthusiast. I build intelligent, data-driven applications with a focus on elegant design and real-world impact.",
     "timeline": [
-      { "year": "2022", "event": "Started as freelance AI developer" },
-      { "year": "2023", "event": "Built Lenzeit AI media system" },
-      { "year": "2024", "event": "Joined TachonTech as a software engineer" },
-      { "year": "2024", "event": "Certification in AI Engineering" },
-      { "year": "2025", "event": "Joined Amal-Axis as Ai Engineer" },
-      { "year": "2025", "event": "Launched Lenzeit" },
-      { "year": "2026", "event": "Co-founded ChatSetGO" }
-
-      
-
+      {
+        "year": "2022",
+        "event": "Started as freelance AI developer"
+      },
+      {
+        "year": "2023",
+        "event": "Built Lenzeit AI media system"
+      },
+      {
+        "year": "2024",
+        "event": "Joined TachonTech as a software engineer"
+      },
+      {
+        "year": "2024",
+        "event": "Certification in AI Engineering"
+      },
+      {
+        "year": "2025",
+        "event": "Joined Amal-Axis as Ai Engineer"
+      },
+      {
+        "year": "2025",
+        "event": "Launched Lenzeit"
+      },
+      {
+        "year": "2026",
+        "event": "Co-founded ChatSetGO"
+      }
     ]
   },
   "skills": {
     "heading": "Skills",
-    "core": ["Python", "JavaScript", "SQL", "HTML", "CSS", "React", "FastAPI", "Django", "Flask", "Tailwind","PHP","Laravel","n8n","Langchain"],
-    "ai_ml": ["TensorFlow", "Scikit-learn", "Keras", "Matplotlib", "Power BI", "Azure", "Google Colab", "Ultralytics"],
-    "automation_tools": ["Git", "GitHub Copilot", "Cursor", "VS Code", "MySQL", "PostgreSQL"],
-    "design_tools": ["Figma", "Canva"]
+    "core": [
+      "Python",
+      "JavaScript",
+      "SQL",
+      "HTML",
+      "CSS",
+      "React",
+      "FastAPI",
+      "Django",
+      "Flask",
+      "Tailwind",
+      "PHP",
+      "Laravel",
+      "n8n",
+      "Langchain"
+    ],
+    "ai_ml": [
+      "TensorFlow",
+      "Scikit-learn",
+      "Keras",
+      "Matplotlib",
+      "Power BI",
+      "Azure",
+      "Google Colab",
+      "Ultralytics"
+    ],
+    "automation_tools": [
+      "Git",
+      "GitHub Copilot",
+      "Cursor",
+      "VS Code",
+      "MySQL",
+      "PostgreSQL"
+    ],
+    "design_tools": [
+      "Figma",
+      "Canva"
+    ]
   },
-"projects": [
-{
-"title": "Lenzeit",
-"description": "AI-powered media delivery platform for photographers and studios. Built features including AI photo sorting, face-based photo discovery, privacy-controlled event galleries, and automated media delivery workflows.",
-"tags": ["AI", "Computer Vision", "React", "Django", "SaaS"],
-"image": "/Projects/lenzeit cover.webp",
-"links": {
-"demo": "https://www.lenzeit.com/",
-"caseStudy": "#"
-}
-},
-{
-"title": "Citizen Rights Legal RAG",
-"description": "Legal question-answering system built with a hybrid RAG architecture combining semantic vector search, BM25 keyword retrieval, and a knowledge graph to improve retrieval of legal provisions, sections, and relationships across Pakistani legal documents.",
-"tags": ["RAG", "LLM", "NLP", "Knowledge Graph", "BM25", "Python"],
-"image": "/Projects/RAG.png",
-"links": {
-"demo": "",
-"github": "",
-"caseStudy": "#"
-}
-},
-{
-"title": "ChatSetGo",
-"description": "AI-powered business automation platform for WhatsApp and social messaging. Built conversational AI workflows, automated customer interactions, backend services, and workflow automation using LLMs, Django, React, and n8n.",
-"tags": ["AI", "LLM", "Automation", "React", "Django", "n8n"],
-"image": "/Projects/ChatsetGo.webp",
-"links": {
-"demo": "https://www.chatsetgo.tech/",
-"caseStudy": "#"
-}
-},
-{
-"title": "Kai-Cure",
-"description": "AI-powered clinical assistant that uses voice recognition and LLMs to process doctor-patient conversations and generate structured SOAP notes, reducing manual documentation and helping clinicians organize consultation records.",
-"tags": ["LLM", "OpenAI", "Django", "Voice AI", "Healthcare"],
-"image": "/Projects/kaicure2.webp",
-"links": {
-"demo": "",
-"github": "",
-"caseStudy": "#"
-}
-},
-{
-"title": "Grade Mate",
-"description": "AI-assisted academic assessment platform that automates quiz and assignment evaluation while providing student performance analytics. Built with a web frontend and Django backend, with computer vision and NLP-based capabilities for automated assessment workflows.",
-"tags": ["AI", "Computer Vision", "NLP", "Django", "Analytics"],
-"image": "/Projects/Grademate.webp",
-"links": {
-"demo": "",
-"github": "",
-"caseStudy": "#"
-}
-},
-{
-"title": "CropX",
-"description": "Full-stack precision agriculture system integrating Arduino-based IoT sensors to collect real-time soil and environmental data. Built a Python machine learning pipeline to analyze NPK, moisture, and weather data and provide predictive crop insights and irrigation recommendations through a React interface.",
-"tags": ["Machine Learning", "IoT", "Python", "React", "Arduino"],
-"image": "/Projects/cropx.webp",
-"links": {
-"demo": "",
-"github": "https://github.com/Xarthling/CropX.git",
-"caseStudy": "#"
-}
-},
-{
-"title": "Fraud Detection System",
-"description": "Machine learning fraud detection system using XGBoost to identify potentially fraudulent financial transactions. Includes a Flask-based administration dashboard for monitoring predictions, confidence scores, alerts, and model outputs.",
-"tags": ["Machine Learning", "XGBoost", "Python", "Flask", "Analytics"],
-"image": "/Projects/FD.webp",
-"links": {
-"demo": "",
-"github": "https://github.com/Xarthling/Bank-Fraud-Detection.git",
-"caseStudy": "#"
-}
-},
-{
-"title": "PULSE AI",
-"description": "Big Data analytics and machine learning platform designed to process complex corporate datasets, uncover hidden patterns and anomalies, and generate predictive insights to support data-driven business decisions.",
-"tags": ["Big Data", "Machine Learning", "Analytics", "Python"],
-"image": "/Projects/pulse.webp",
-"links": {
-"demo": "",
-"caseStudy": "#"
-}
-},
-{
-"title": "Breast Cancer Detection",
-"description": "Deep learning computer vision project for detecting and segmenting breast cancer-related abnormalities from medical imagery. Explored deep learning-based image analysis and segmentation workflows using Python and modern computer vision techniques.",
-"tags": ["Deep Learning", "Computer Vision", "Medical AI", "Python"],
-"image": "/Projects/Breast.webp",
-"links": {
-"demo": "",
-"github": "https://github.com/Xarthling/Breast-Cancer-Detection--DenseNet.git",
-"caseStudy": "#"
-}
-},
-{
-"title": "US Financial Waste Tracker",
-"description": "Interactive analytics dashboard that combines publicly available US government data and APIs to explore, track, and analyze government financial spending and potential waste.",
-"tags": ["React", "Data Analytics", "APIs", "Visualization"],
-"image": "/Projects/waste2.webp",
-"links": {
-"demo": "",
-"github": "https://github.com/Xarthling/US-Financial-Waste-Management.git",
-"caseStudy": "#"
-}
-},
-{
-"title": "Selenium Automation Bot",
-"description": "Browser automation system designed for multi-user form submission workflows. Automated repetitive web interactions using Selenium and implemented mechanisms for handling CAPTCHA-based workflows.",
-"tags": ["Selenium", "Python", "Automation", "Web Scraping"],
-"image": "/Projects/bot.webp",
-"links": {
-"demo": "",
-"github": "https://github.com/Xarthling/Appointment-Bot.git",
-"caseStudy": "#"
-}
-},
-{
-"title": "Lip Gloss Ecommerce",
-"description": "Full-stack ecommerce platform developed with Laravel, implementing product management, customer-facing shopping workflows, and backend ecommerce functionality.",
-"tags": ["Laravel", "PHP", "MySQL", "Ecommerce"],
-"image": "/Projects/lipgloss.webp",
-"links": {
-"demo": "",
-"github": "https://github.com/Xarthling/Lip-Gloss-Laravel.git",
-"caseStudy": "#"
-}
-},
-{
-"title": "React AI Chatbot",
-"description": "Web-based conversational AI application built with React and OpenAI's API, providing users with real-time natural language conversations through a responsive chat interface.",
-"tags": ["AI", "React", "OpenAI", "API"],
-"image": "/Projects/chat.webp",
-"links": {
-"demo": "",
-"github": "https://github.com/Xarthling/ReactChatBot.git",
-"caseStudy": "#"
-}
-}
-]
-,
-
+  "projects": [
+    {
+      "title": "Lenzeit",
+      "description": "AI-powered media delivery platform for photographers and studios. Built features including AI photo sorting, face-based photo discovery, privacy-controlled event galleries, and automated media delivery workflows.",
+      "tags": [
+        "AI",
+        "Computer Vision",
+        "React",
+        "Django",
+        "SaaS"
+      ],
+      "image": "/Projects/lenzeit cover.webp",
+      "video": "/Projects/test.mp4",
+      "links": {
+        "demo": "https://www.lenzeit.com/",
+        "caseStudy": "#"
+      }
+    },
+    {
+      "title": "Citizen Rights Legal RAG",
+      "description": "Legal question-answering system built with a hybrid RAG architecture combining semantic vector search, BM25 keyword retrieval, and a knowledge graph to improve retrieval of legal provisions, sections, and relationships across Pakistani legal documents.",
+      "tags": [
+        "RAG",
+        "LLM",
+        "NLP",
+        "Knowledge Graph",
+        "BM25",
+        "Python"
+      ],
+      "image": "/Projects/RAG.png",
+      "video": "/Projects/test.mp4",
+      "links": {
+        "demo": "",
+        "github": "",
+        "caseStudy": "#"
+      }
+    },
+    {
+      "title": "ChatSetGo",
+      "description": "AI-powered business automation platform for WhatsApp and social messaging. Built conversational AI workflows, automated customer interactions, backend services, and workflow automation using LLMs, Django, React, and n8n.",
+      "tags": [
+        "AI",
+        "LLM",
+        "Automation",
+        "React",
+        "Django",
+        "n8n"
+      ],
+      "image": "/Projects/ChatsetGo.webp",
+      "video": "/Projects/test.mp4",
+      "links": {
+        "demo": "https://www.chatsetgo.tech/",
+        "caseStudy": "#"
+      }
+    },
+    {
+      "title": "Kai-Cure",
+      "description": "AI-powered clinical assistant that uses voice recognition and LLMs to process doctor-patient conversations and generate structured SOAP notes, reducing manual documentation and helping clinicians organize consultation records.",
+      "tags": [
+        "LLM",
+        "OpenAI",
+        "Django",
+        "Voice AI",
+        "Healthcare"
+      ],
+      "image": "/Projects/kaicure2.webp",
+      "video": "/Projects/test.mp4",
+      "links": {
+        "demo": "",
+        "github": "",
+        "caseStudy": "#"
+      }
+    },
+    {
+      "title": "Grade Mate",
+      "description": "AI-assisted academic assessment platform that automates quiz and assignment evaluation while providing student performance analytics. Built with a web frontend and Django backend, with computer vision and NLP-based capabilities for automated assessment workflows.",
+      "tags": [
+        "AI",
+        "Computer Vision",
+        "NLP",
+        "Django",
+        "Analytics"
+      ],
+      "image": "/Projects/Grademate.webp",
+      "video": "/Projects/test.mp4",
+      "links": {
+        "demo": "",
+        "github": "",
+        "caseStudy": "#"
+      }
+    },
+    {
+      "title": "CropX",
+      "description": "Full-stack precision agriculture system integrating Arduino-based IoT sensors to collect real-time soil and environmental data. Built a Python machine learning pipeline to analyze NPK, moisture, and weather data and provide predictive crop insights and irrigation recommendations through a React interface.",
+      "tags": [
+        "Machine Learning",
+        "IoT",
+        "Python",
+        "React",
+        "Arduino"
+      ],
+      "image": "/Projects/cropx.webp",
+      "video": "/Projects/test.mp4",
+      "links": {
+        "demo": "",
+        "github": "https://github.com/Xarthling/CropX.git",
+        "caseStudy": "#"
+      }
+    },
+    {
+      "title": "Fraud Detection System",
+      "description": "Machine learning fraud detection system using XGBoost to identify potentially fraudulent financial transactions. Includes a Flask-based administration dashboard for monitoring predictions, confidence scores, alerts, and model outputs.",
+      "tags": [
+        "Machine Learning",
+        "XGBoost",
+        "Python",
+        "Flask",
+        "Analytics"
+      ],
+      "image": "/Projects/FD.webp",
+      "video": "/Projects/test.mp4",
+      "links": {
+        "demo": "",
+        "github": "https://github.com/Xarthling/Bank-Fraud-Detection.git",
+        "caseStudy": "#"
+      }
+    },
+    {
+      "title": "PULSE AI",
+      "description": "Big Data analytics and machine learning platform designed to process complex corporate datasets, uncover hidden patterns and anomalies, and generate predictive insights to support data-driven business decisions.",
+      "tags": [
+        "Big Data",
+        "Machine Learning",
+        "Analytics",
+        "Python"
+      ],
+      "image": "/Projects/pulse.webp",
+      "video": "/Projects/test.mp4",
+      "links": {
+        "demo": "",
+        "caseStudy": "#"
+      }
+    },
+    {
+      "title": "Breast Cancer Detection",
+      "description": "Deep learning computer vision project for detecting and segmenting breast cancer-related abnormalities from medical imagery. Explored deep learning-based image analysis and segmentation workflows using Python and modern computer vision techniques.",
+      "tags": [
+        "Deep Learning",
+        "Computer Vision",
+        "Medical AI",
+        "Python"
+      ],
+      "image": "/Projects/Breast.webp",
+      "video": "/Projects/test.mp4",
+      "links": {
+        "demo": "",
+        "github": "https://github.com/Xarthling/Breast-Cancer-Detection--DenseNet.git",
+        "caseStudy": "#"
+      }
+    },
+    {
+      "title": "US Financial Waste Tracker",
+      "description": "Interactive analytics dashboard that combines publicly available US government data and APIs to explore, track, and analyze government financial spending and potential waste.",
+      "tags": [
+        "React",
+        "Data Analytics",
+        "APIs",
+        "Visualization"
+      ],
+      "image": "/Projects/waste2.webp",
+      "video": "/Projects/test.mp4",
+      "links": {
+        "demo": "",
+        "github": "https://github.com/Xarthling/US-Financial-Waste-Management.git",
+        "caseStudy": "#"
+      }
+    },
+    {
+      "title": "Selenium Automation Bot",
+      "description": "Browser automation system designed for multi-user form submission workflows. Automated repetitive web interactions using Selenium and implemented mechanisms for handling CAPTCHA-based workflows.",
+      "tags": [
+        "Selenium",
+        "Python",
+        "Automation",
+        "Web Scraping"
+      ],
+      "image": "/Projects/bot.webp",
+      "video": "/Projects/test.mp4",
+      "links": {
+        "demo": "",
+        "github": "https://github.com/Xarthling/Appointment-Bot.git",
+        "caseStudy": "#"
+      }
+    },
+    {
+      "title": "Lip Gloss Ecommerce",
+      "description": "Full-stack ecommerce platform developed with Laravel, implementing product management, customer-facing shopping workflows, and backend ecommerce functionality.",
+      "tags": [
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "Ecommerce"
+      ],
+      "image": "/Projects/lipgloss.webp",
+      "video": "/Projects/test.mp4",
+      "links": {
+        "demo": "",
+        "github": "https://github.com/Xarthling/Lip-Gloss-Laravel.git",
+        "caseStudy": "#"
+      }
+    },
+    {
+      "title": "React AI Chatbot",
+      "description": "Web-based conversational AI application built with React and OpenAI's API, providing users with real-time natural language conversations through a responsive chat interface.",
+      "tags": [
+        "AI",
+        "React",
+        "OpenAI",
+        "API"
+      ],
+      "image": "/Projects/chat.webp",
+      "video": "/Projects/test.mp4",
+      "links": {
+        "demo": "",
+        "github": "https://github.com/Xarthling/ReactChatBot.git",
+        "caseStudy": "#"
+      }
+    }
+  ],
   "experience": [
-    { 
-      "role": "Founder", 
-      "year": "2025-Present", 
-      "img": "/Experience/chatsetgo.webp", 
-      "details": "ChatSetGo is a WhatsApp business automation platform that streamlines customer communication and business workflows using AI and automation." 
+    {
+      "role": "Founder",
+      "year": "2025-Present",
+      "img": "/Experience/chatsetgo.webp",
+      "details": "ChatSetGo is a WhatsApp business automation platform that streamlines customer communication and business workflows using AI and automation."
     },
-    { 
-      "role": "Founder", 
-      "year": "2025-Present", 
-      "img": "/Experience/lenzeit.webp", 
-      "details": "Launched Lenzeit, an AI-powered bulk photo delivery platform revolutionizing media distribution." 
+    {
+      "role": "Founder",
+      "year": "2025-Present",
+      "img": "/Experience/lenzeit.webp",
+      "details": "Launched Lenzeit, an AI-powered bulk photo delivery platform revolutionizing media distribution."
     },
-    { 
-      "role": "AI Engineer", 
-      "year": "2025-2026", 
-      "img": "/Experience/Amal%20Axis.webp", 
-      "details": "Engineered innovative AI solutions at Amal-Axis, focusing on LLM integration and neural architectures." 
+    {
+      "role": "AI Engineer",
+      "year": "2025-2026",
+      "img": "/Experience/Amal%20Axis.webp",
+      "details": "Engineered innovative AI solutions at Amal-Axis, focusing on LLM integration and neural architectures."
     },
-    { 
-      "role": "Software Engineer", 
-      "year": "2023-2024", 
-      "img": "/Experience/techyon%20tech.webp", 
-      "details": "Developed scalable applications at TechyonTech, optimizing backend performance and user experience." 
+    {
+      "role": "Software Engineer",
+      "year": "2023-2024",
+      "img": "/Experience/techyon%20tech.webp",
+      "details": "Developed scalable applications at TechyonTech, optimizing backend performance and user experience."
     },
-    { 
-      "role": "Freelance Developer", 
-      "year": "2022-Ongoing", 
-      "img": "/Experience/free.webp", 
-      "details": "Delivered high-quality software solutions for a diverse range of international clients." 
+    {
+      "role": "Freelance Developer",
+      "year": "2022-Ongoing",
+      "img": "/Experience/free.webp",
+      "details": "Delivered high-quality software solutions for a diverse range of international clients."
     }
   ],
   "education": [
-    { 
-      "degree": "BSc Computer Science", 
-      "year": "2021-2024", 
-      "img": "/Experience/comsats.webp", 
-      "institution": "COMSATS University Islamabad" 
+    {
+      "degree": "BSc Computer Science",
+      "year": "2021-2024",
+      "img": "/Experience/comsats.webp",
+      "institution": "COMSATS University Islamabad"
     },
-    { 
-      "degree": "AI/ML, Data Science", 
-      "year": "2025", 
-      "img": "/Experience/giki.webp", 
-      "institution": "GIKI University Certified " 
+    {
+      "degree": "AI/ML, Data Science",
+      "year": "2025",
+      "img": "/Experience/giki.webp",
+      "institution": "GIKI University Certified "
     },
-    { 
-      "degree": "Azure Machine Learning", 
-      "year": "2025", 
-      "img": "/Experience/ms.webp", 
-      "institution": "Microsoft Certified" 
+    {
+      "degree": "Azure Machine Learning",
+      "year": "2025",
+      "img": "/Experience/ms.webp",
+      "institution": "Microsoft Certified"
     }
-  ]
-    ,
- "testimonials": [
-  {
-    "author": "Project Collaborator",
-    "text": "Hasan has a strong ability to turn complex AI ideas into practical, working solutions. He was particularly good at breaking problems down and iterating quickly."
-  },
-  {
-    "author": "Backend Project",
-    "text": "Working with Hasan on the backend was a smooth experience. He understood the requirements quickly and focused on building solutions that were reliable and easy to extend."
-  },
-  {
-    "author": "AI Project Collaborator",
-    "text": "Hasan brings a practical approach to AI engineering. He doesn't just focus on getting a model working—he thinks about retrieval, performance, APIs, and how the whole system fits together."
-  },
-  {
-    "author": "Team Collaborator",
-    "text": "Hasan was proactive when solving technical problems and wasn't afraid to dig into issues until he found a workable solution. His problem-solving mindset stood out."
-  },
-  {
-    "author": "Project Manager",
-    "text": "Hasan consistently took ownership of his tasks and was able to work across both AI and backend development. He was dependable when dealing with challenging technical requirements."
-  },
-  {
-    "author": "Engineering Colleague",
-    "text": "One of Hasan's strengths is his ability to work across different parts of a product—from backend APIs and databases to AI pipelines and automation."
-  },
-  {
-    "author": "Automation Project",
-    "text": "Hasan understood the workflow we wanted to automate and translated it into a practical solution. The focus was always on reducing repetitive work and making the process easier to manage."
-  },
-  {
-    "author": "AI Engineering Collaborator",
-    "text": "Hasan has a strong interest in applied AI and is always experimenting with better ways to improve systems. His work with RAG, automation, and AI integrations shows a very hands-on engineering approach."
-  },
-  {
-    "author": "Software Engineering Peer",
-    "text": "Hasan is a curious and persistent engineer. When something doesn't work as expected, he investigates the problem, tests alternatives, and keeps improving the implementation."
-  }
-],
+  ],
+  "testimonials": [
+    {
+      "author": "Project Collaborator",
+      "text": "Mohsin has a strong ability to turn complex AI ideas into practical, working solutions. He was particularly good at breaking problems down and iterating quickly."
+    },
+    {
+      "author": "Backend Project",
+      "text": "Working with Mohsin on the backend was a smooth experience. He understood the requirements quickly and focused on building solutions that were reliable and easy to extend."
+    },
+    {
+      "author": "AI Project Collaborator",
+      "text": "Mohsin brings a practical approach to AI engineering. He doesn't just focus on getting a model working—he thinks about retrieval, performance, APIs, and how the whole system fits together."
+    },
+    {
+      "author": "Team Collaborator",
+      "text": "Mohsin was proactive when solving technical problems and wasn't afraid to dig into issues until he found a workable solution. His problem-solving mindset stood out."
+    },
+    {
+      "author": "Project Manager",
+      "text": "Mohsin consistently took ownership of his tasks and was able to work across both AI and backend development. He was dependable when dealing with challenging technical requirements."
+    },
+    {
+      "author": "Engineering Colleague",
+      "text": "One of Mohsin's strengths is his ability to work across different parts of a product—from backend APIs and databases to AI pipelines and automation."
+    },
+    {
+      "author": "Automation Project",
+      "text": "Mohsin understood the workflow we wanted to automate and translated it into a practical solution. The focus was always on reducing repetitive work and making the process easier to manage."
+    },
+    {
+      "author": "AI Engineering Collaborator",
+      "text": "Mohsin has a strong interest in applied AI and is always experimenting with better ways to improve systems. His work with RAG, automation, and AI integrations shows a very hands-on engineering approach."
+    },
+    {
+      "author": "Software Engineering Peer",
+      "text": "Mohsin is a curious and persistent engineer. When something doesn't work as expected, he investigates the problem, tests alternatives, and keeps improving the implementation."
+    }
+  ],
   "contact": {
-    "github": "https://github.com/Xarthling",
-    "linkedin": "https://www.linkedin.com/in/hassan-munir-196455285/",
-    "email": "malik.hassan5499@gmail.com",
+    "upwork": "https://www.upwork.com/freelancers/~01ed3cdfdbf0c3894c",
+    "linkedin": "https://www.linkedin.com/in/mohsin-munir-95b802250/?isSelfProfile=true",
+    "email": "mohsinmunir548@gmail.com",
     "website": "#"
   },
   "cta": {
@@ -277,7 +419,9 @@
     "tagline": "Call To Action",
     "image": "/Projects/ice-age.webp",
     "description": "I’m always open to new opportunities and collaborations. Whether you have a project in mind or just want to connect, feel free to reach out!",
-    "button": { "label": "Contact Me", "link": "#contact" }
-     
+    "button": {
+      "label": "Contact Me",
+      "link": "#contact"
+    }
   }
 }

@@ -21,7 +21,7 @@ const fadeInRight = {
 };
 
 const Contact = () => {
-  const { github, linkedin, email, website } = data.contact;
+  const { upwork, linkedin, email, website } = data.contact;
   
   // --- EmailJS Logic ---
   const formRef = useRef();
@@ -51,7 +51,7 @@ const Contact = () => {
   // ----------------------
 
   const contactLinks = [
-    { label: "GitHub", href: github },
+    { label: "Upwork", href: upwork },
     { label: "LinkedIn", href: linkedin },
     { label: "Email", href: `mailto:${email}` },
     ...(website && website !== "#" ? [{ label: "Website", href: website }] : []),

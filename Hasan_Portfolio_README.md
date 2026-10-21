@@ -80,6 +80,12 @@ Each card includes:
 - Image / video preview
 - Links: **Live Demo** | **GitHub Repo** | **Case Study**
 
+To make a project playable, add its exported clip to `public/Projects/` and set
+the project's `video` value in `src/utils/data.json` (for example,
+`"/Projects/lenzeit.mp4"`). The image remains the poster/fallback until a video
+path is provided. Videos use native browser controls and are muted only when
+the viewer chooses to mute them.
+
 **Highlighted Projects:**
 - 🎞️ **Portraiture** – AI-powered media delivery system for photography studios  
 - 💳 **Fraud Detection System** – Flask-based ML app with admin dashboard  

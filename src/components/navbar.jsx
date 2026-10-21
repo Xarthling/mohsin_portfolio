@@ -5,7 +5,7 @@ import Logo from "../assets/Sign-Logo/signature (1).svg?react";
 
 const sections = [
   { label: "Home", href: "#hero" },
-  { label: "About", href: "#about" },
+  // { label: "About", href: "#about" },
   { label: "Projects", href: "#projects" },
   { label: "Contact", href: "#contact" },
 ];
@@ -20,6 +20,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center max-w-7xl mx-auto">
         {/* Logo */}
         <a href="#hero" className="z-[60]">
+          {/* MALIK MOHSIN */}
           <Logo className="w-32 md:w-40 h-auto text-black dark:text-gray-300" />
         </a>
 
