@@ -47,7 +47,7 @@ const Home = () => {
       >
         {/* <Typewriter text={data.hero.name} speed={100} /> */}
 
-        <h1 className="max-w-3xl text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-[1.05] tracking-tight text-neutral-900 dark:text-white">
+        <h1 className="max-w-2xl text-2xl sm:text-3xl lg:text-4xl font-extrabold leading-[1.05] tracking-tight text-neutral-900 dark:text-white">
           {data.hero.tagline}
         </h1>
 
@@ -66,7 +66,7 @@ const Home = () => {
         <div className="relative flex w-full max-w-3xl justify-center">
           {videoUnavailable ? (
             <HeroIllustration
-              className="w-full max-w-[400px] h-auto drop-shadow-[-20px_20px_50px_rgba(0,0,0,0.2)] dark:drop-shadow-[-20px_20px_50px_rgba(99,102,241,0.1)] text-neutral-800 dark:text-gray-200"
+              className="w-full max-w-[300px] h-auto drop-shadow-[-20px_20px_50px_rgba(0,0,0,0.2)] dark:drop-shadow-[-20px_20px_50px_rgba(99,102,241,0.1)] text-neutral-800 dark:text-gray-200"
               aria-label="Portfolio illustration"
             />
           ) : (

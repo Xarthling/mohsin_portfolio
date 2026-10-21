@@ -20,8 +20,8 @@ const Navbar = () => {
       <div className="flex justify-between items-center max-w-7xl mx-auto">
         {/* Logo */}
         <a href="#hero" className="z-[60]">
-          {/* MALIK MOHSIN */}
-          <Logo className="w-32 md:w-40 h-auto text-black dark:text-gray-300" />
+          MALIK MOHSIN
+          {/* <Logo className="w-32 md:w-40 h-auto text-black dark:text-gray-300" /> */}
         </a>
 
         {/* Desktop Navigation */}

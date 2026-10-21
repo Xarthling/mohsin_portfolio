@@ -35,8 +35,8 @@ const AppRoutes = () => {
         <div aria-busy={isLoading}>
           <Home />
           <Projects />
-          <CTA />
-          {/* <About /> */}
+          {/* <CTA /> */}
+          <About />
           {/* <SkillNetwork /> */}
           {/* <Stacks /> */}
           {/* <ExperienceEducation /> */}
